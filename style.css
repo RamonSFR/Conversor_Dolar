@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Lato;
+    box-sizing: border-box;
+    color: #FFFFDD;
+    text-decoration: none;
+}
+
+body {
+    background-color:#016A70;
+    text-shadow: 0px 2px 7px #A2C579;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.art{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.inputs {
+    width: 100vw;
+    height: 50vh;
+    display: flex ;
+    justify-content: center;
+}
+
+.image {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.box {
+    width: 70%;
+    height: 80%;
+    background-color: #D2DE32;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px #A2C579;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reais {
+    color: #016A70;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    height: 50px;
+    width: 300px;
+    margin-right: 0.25%;
+}
+
+#dolares {
+    color: #016A70;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    height: 50px;
+    width: 300px;
+}
+
+input::placeholder {
+    color:#016A70;
+}
+
+input {
+    margin-left: 2%;
+}
